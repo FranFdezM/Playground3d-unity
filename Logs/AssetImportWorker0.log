@@ -15,7 +15,7 @@ C:/Users/FranFdezDev/Playground3D
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60445
+59355
 Successfully changed project path to: C:/Users/FranFdezDev/Playground3D
 C:/Users/FranFdezDev/Playground3D
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/FranFdezDev/Playground3D
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16312] Host "[IP] 192.168.1.135 [Port] 0 [Flags] 2 [Guid] 3032855326 [EditorId] 3032855326 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DH6M02P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17868] Host "[IP] 192.168.1.135 [Port] 0 [Flags] 2 [Guid] 1577425543 [EditorId] 1577425543 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DH6M02P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16312] Host "[IP] 192.168.1.135 [Port] 0 [Flags] 2 [Guid] 3032855326 [EditorId] 3032855326 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DH6M02P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17868] Host "[IP] 192.168.1.135 [Port] 0 [Flags] 2 [Guid] 1577425543 [EditorId] 1577425543 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DH6M02P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 122.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 60.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.24f1/Editor/Data/Resources/UnitySubsystems
@@ -67,75 +67,75 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.3.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.080493 seconds.
+Registered in 0.002563 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 56.87 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 67.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.710 seconds
+- Completed reload, in  0.564 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4711ms)
-		BeginReloadAssembly (3513ms)
+	ReloadAssembly (565ms)
+		BeginReloadAssembly (74ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (823ms)
-			LoadAssemblies (3511ms)
+		EndReloadAssembly (406ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (509ms)
+			SetupTypeCache (91ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (246ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (247ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (57ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (132ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004646 seconds.
+Registered in 0.003824 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\FranFdezDev\Playground3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\FranFdezDev\Playground3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.486 seconds
+- Completed reload, in  0.887 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3487ms)
-		BeginReloadAssembly (103ms)
+	ReloadAssembly (888ms)
+		BeginReloadAssembly (114ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (3254ms)
-			LoadAssemblies (2167ms)
+		EndReloadAssembly (675ms)
+			LoadAssemblies (92ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (681ms)
+			SetupTypeCache (254ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (322ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (278ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (227ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (189ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -143,13 +143,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3047 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (113.3 KB). Loaded Objects now: 3507.
-Memory consumption went from 107.5 MB to 107.4 MB.
-Total: 3.112600 ms (FindLiveObjects: 0.308700 ms CreateObjectMapping: 0.117100 ms MarkObjects: 2.551300 ms  DeleteObjects: 0.134100 ms)
+Unloading 3222 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (114.2 KB). Loaded Objects now: 3684.
+Memory consumption went from 113.8 MB to 113.6 MB.
+Total: 4.355000 ms (FindLiveObjects: 0.461600 ms CreateObjectMapping: 0.330400 ms MarkObjects: 3.373300 ms  DeleteObjects: 0.188100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,67 +163,405 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 94768.277533 seconds.
-  path: Assets/Characters
-  artifactKey: Guid(9cfdf26524e454c458f3d7b3a184f6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters using Guid(9cfdf26524e454c458f3d7b3a184f6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a28ef36a6390a6baab51339495eb12f') in 0.010623 seconds 
+  Time since last request: 181126.585844 seconds.
+  path: Assets/Characters/Link + Animaciones/sheath sword 2.fbx
+  artifactKey: Guid(974f9d9d97bd48b48979b1da3ab65d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sheath sword 2.fbx using Guid(974f9d9d97bd48b48979b1da3ab65d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873162af856a1136232a075ff6103656') in 0.091927 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.657525 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.006936 seconds 
+  Time since last request: 29.237396 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield 180 turn (2).fbx
+  artifactKey: Guid(fbea496e78b8fb7478baa67e3d2e6905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield 180 turn (2).fbx using Guid(fbea496e78b8fb7478baa67e3d2e6905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78dd762df0d1facdbdd47394f9baf872') in 0.009027 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.338964 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55ccaa32d8e5c1de03c07a5412c8c3c') in 0.006954 seconds 
+  Time since last request: 10.301320 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield 180 turn.fbx
+  artifactKey: Guid(ff369b51af4a94843a43e3f2101a2215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield 180 turn.fbx using Guid(ff369b51af4a94843a43e3f2101a2215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f48cbfe1e49d5203c017c5df3fdd14f') in 0.009064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.218701 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield attack (2).fbx
+  artifactKey: Guid(543f6b98a2cc7844b878a822acc7bb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield attack (2).fbx using Guid(543f6b98a2cc7844b878a822acc7bb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365c2c7602b9e6b91b7781b94c5e01b7') in 0.009286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.694667 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield attack (3).fbx
+  artifactKey: Guid(c4e676b72257a6a47b96c162d3935731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield attack (3).fbx using Guid(c4e676b72257a6a47b96c162d3935731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5caaeb9fd9c923d222caf692fd6a63c1') in 0.009126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.808136 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield attack (4).fbx
+  artifactKey: Guid(5c4bde19d7aa1d7449bbefc0b032c18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield attack (4).fbx using Guid(5c4bde19d7aa1d7449bbefc0b032c18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a6758fab99ce09e90fc2b13fd21d5c') in 0.009140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.711056 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield attack.fbx
+  artifactKey: Guid(39927b8ab4ee6c3469bc480b31ffecae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield attack.fbx using Guid(39927b8ab4ee6c3469bc480b31ffecae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60efcc466ebb3377cab52c4bcd87c016') in 0.008840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.964937 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield block (2).fbx
+  artifactKey: Guid(bd35a84da22ac6c42981fc39e56d2dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield block (2).fbx using Guid(bd35a84da22ac6c42981fc39e56d2dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd730022c763bf9d03d2f7774caf80924') in 0.008480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.538978 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield block idle.fbx
+  artifactKey: Guid(c550af9750235d44e8a83f7248f7bec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield block idle.fbx using Guid(c550af9750235d44e8a83f7248f7bec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf1aa4ece3cb641a08a732a24987429') in 0.009151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.432579 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield block.fbx
+  artifactKey: Guid(41845556542519948bbe361c45f961df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield block.fbx using Guid(41845556542519948bbe361c45f961df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd2a226cd2b501547db2134d308e4a1') in 0.008825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.776506 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield casting (2).fbx
+  artifactKey: Guid(36d41043fba6c2c4d97c66cf07ec7070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield casting (2).fbx using Guid(36d41043fba6c2c4d97c66cf07ec7070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b056886d6d124faaceaede5bd40ebe0c') in 0.008927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.053994 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield casting.fbx
+  artifactKey: Guid(a4a69dbb4889f954ab72375e2d1f73bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield casting.fbx using Guid(a4a69dbb4889f954ab72375e2d1f73bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e085d143c3483b9c2c592d3e606207') in 0.009296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.372916 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield crouch block (2).fbx
+  artifactKey: Guid(dd3abc4018d247249af06fc4d302bb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield crouch block (2).fbx using Guid(dd3abc4018d247249af06fc4d302bb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6566cb3ff00fa161e2736ead5810352d') in 0.009088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.314224 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield crouch block idle.fbx
+  artifactKey: Guid(91c91bcb430f29c429ca3864f11f3767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield crouch block idle.fbx using Guid(91c91bcb430f29c429ca3864f11f3767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5083e36a1cba01b7dbbc4ba52ec6eea3') in 0.009667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.119114 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield crouch block.fbx
+  artifactKey: Guid(a1932f38e8dea6b4d9306f1cc2a2eb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield crouch block.fbx using Guid(a1932f38e8dea6b4d9306f1cc2a2eb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8d05416eeaedc01be6467e1317c679') in 0.008852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.911432 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield crouch idle.fbx
+  artifactKey: Guid(9eb6bc35746404e40ba4ab480808a6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield crouch idle.fbx using Guid(9eb6bc35746404e40ba4ab480808a6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '246fbc9754490f9e394bd8377325f830') in 0.009685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.798662 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield crouch.fbx
+  artifactKey: Guid(67770783cd7d21e4c9cbeffe558c1e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield crouch.fbx using Guid(67770783cd7d21e4c9cbeffe558c1e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a68d36e61a18dda276fea4fc46e1cdb') in 0.009821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.617277 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield crouching (2).fbx
+  artifactKey: Guid(84e52086cb803a54c8ba44c93895a2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield crouching (2).fbx using Guid(84e52086cb803a54c8ba44c93895a2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4bef98cfc0cd177001b2dee5372c64f') in 0.009242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.907822 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield crouching (3).fbx
+  artifactKey: Guid(90cf72684a38dac4ebdd73ba537aae21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield crouching (3).fbx using Guid(90cf72684a38dac4ebdd73ba537aae21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955c83a62cf1bbdf2af8e486d7bd29d8') in 0.008996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.664117 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield crouching.fbx
+  artifactKey: Guid(b93e79238261d2049bde5cb81635e10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield crouching.fbx using Guid(b93e79238261d2049bde5cb81635e10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e454da6105ed79763d33a18211927a') in 0.009406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.099827 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield death (2).fbx
+  artifactKey: Guid(d3791e97272693a4c90509302a8a128a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield death (2).fbx using Guid(d3791e97272693a4c90509302a8a128a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b410a3a22f73e5586028c628ecec89') in 0.009427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.444029 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield death.fbx
+  artifactKey: Guid(1fd794b0ad154194c953e44288356523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield death.fbx using Guid(1fd794b0ad154194c953e44288356523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f16d95f59e902b608e509778c2655a') in 0.010541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.016825 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield idle (2).fbx
+  artifactKey: Guid(69180d9284be07040891563d56ac7228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield idle (2).fbx using Guid(69180d9284be07040891563d56ac7228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9070c617b2fd054fd4b43969446b39de') in 0.010050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.284822 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield idle (3).fbx
+  artifactKey: Guid(fe2a624bfe21d2d4b963a215fbaeae03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield idle (3).fbx using Guid(fe2a624bfe21d2d4b963a215fbaeae03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777216c51864e79f2f57c8f9980ee7d1') in 0.009460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.286225 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield idle (4).fbx
+  artifactKey: Guid(7686fb3907ffd5b4aa6ec937d5e8ef04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield idle (4).fbx using Guid(7686fb3907ffd5b4aa6ec937d5e8ef04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4e4cff3e271d765511de7dd564f11b') in 0.010316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.043660 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield idle.fbx
+  artifactKey: Guid(1ea1eadeb296ea844b89ac6372851924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield idle.fbx using Guid(1ea1eadeb296ea844b89ac6372851924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7e999bc3c1c21d555dc8c60555693d') in 0.009962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.381668 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield impact (2).fbx
+  artifactKey: Guid(eace56b65b1ec7344992d6f56c86c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield impact (2).fbx using Guid(eace56b65b1ec7344992d6f56c86c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9236b8b4e3cff0c09ccbb5f975a6f96c') in 0.009604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.319681 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield impact (3).fbx
+  artifactKey: Guid(075f4973c8f203c4e9e17e8f996cb6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield impact (3).fbx using Guid(075f4973c8f203c4e9e17e8f996cb6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa3d619f413fd2cb18196fadd82f345') in 0.008915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.361345 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield impact.fbx
+  artifactKey: Guid(4693a62434bc2ca4ca659a397e5698ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield impact.fbx using Guid(4693a62434bc2ca4ca659a397e5698ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d7a728c8c60f00e17a765bb5e43659') in 0.008685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.972478 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield jump (2).fbx
+  artifactKey: Guid(85b1a4c0920448c418dc8ed2164c7d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield jump (2).fbx using Guid(85b1a4c0920448c418dc8ed2164c7d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f94a91625917024ac2b5f76557c0df46') in 0.009307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.926608 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield jump.fbx
+  artifactKey: Guid(4dd535b5230f1d24784cbd573a221f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield jump.fbx using Guid(4dd535b5230f1d24784cbd573a221f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05443f5cf87f2f28bdd7932b68c9b93') in 0.010634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.422679 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield kick.fbx
+  artifactKey: Guid(5fd09861468372949ba4a2357d83c66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield kick.fbx using Guid(5fd09861468372949ba4a2357d83c66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd99a4a9a2e192c91893b05c0267a25e') in 0.010427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.613893 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield power up.fbx
+  artifactKey: Guid(e481f066035b9b64c9c8a1ca90af0472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield power up.fbx using Guid(e481f066035b9b64c9c8a1ca90af0472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f83436223837626f1a61dc7ac80764') in 0.009206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.523190 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield run (2).fbx
+  artifactKey: Guid(d3eab3d2a1590294586261e91d9c23ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield run (2).fbx using Guid(d3eab3d2a1590294586261e91d9c23ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6dfa66baa6f90e5d710cf538048f9e9') in 0.010276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.721902 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield run.fbx
+  artifactKey: Guid(7a0774153f893cd429292fac58beb61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield run.fbx using Guid(7a0774153f893cd429292fac58beb61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f22592d1fcf3e2e47295ba8255cb8e') in 0.009576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.519679 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield slash (2).fbx
+  artifactKey: Guid(e4218f1df04e52b48a119ffcda913c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield slash (2).fbx using Guid(e4218f1df04e52b48a119ffcda913c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06aa08760644dbc3f031db84582e8233') in 0.009678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.711745 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield slash (3).fbx
+  artifactKey: Guid(36d13c9c990e99c45b962182932b1752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield slash (3).fbx using Guid(36d13c9c990e99c45b962182932b1752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e0ce7fc9dc5bc48ebf4ad2165c62f5') in 0.009156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.556280 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield slash (4).fbx
+  artifactKey: Guid(bad507aa2e47f3b448d12fd581b00ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield slash (4).fbx using Guid(bad507aa2e47f3b448d12fd581b00ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f741ad8723f96a8e6efa84f16417f32a') in 0.009950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.168531 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield slash (5).fbx
+  artifactKey: Guid(0789339d497278a4b945df21111ff27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield slash (5).fbx using Guid(0789339d497278a4b945df21111ff27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a17ce3d07327022b2145bd9a6cca843') in 0.008808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.628089 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield slash.fbx
+  artifactKey: Guid(8a6d904db7316a84990190225b6296ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield slash.fbx using Guid(8a6d904db7316a84990190225b6296ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ef4486fe963cd68ceee0c6e879b2e7') in 0.009599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.873130 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield strafe (2).fbx
+  artifactKey: Guid(062fead477caec44aab94a92ccdad00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield strafe (2).fbx using Guid(062fead477caec44aab94a92ccdad00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26b8a0eee2c825366924781ba710f08') in 0.009751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.685322 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield strafe (3).fbx
+  artifactKey: Guid(b3231ac46e086fa4faed9b4fc197b92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield strafe (3).fbx using Guid(b3231ac46e086fa4faed9b4fc197b92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb47be2f47e09483c687e53a412decf') in 0.009382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.147966 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield strafe (4).fbx
+  artifactKey: Guid(0405615ba050fe248b0bca96fa3a482e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield strafe (4).fbx using Guid(0405615ba050fe248b0bca96fa3a482e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f1ad31f864804b440cdc25af15762c') in 0.010773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.149776 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield strafe.fbx
+  artifactKey: Guid(89ebaf96bde3b0f43bce9c8beab7db34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield strafe.fbx using Guid(89ebaf96bde3b0f43bce9c8beab7db34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c21583ff65639dc2db21570465b3220') in 0.009876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.737490 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield turn (2).fbx
+  artifactKey: Guid(59186834699a70b4a8b5b0c52495c791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield turn (2).fbx using Guid(59186834699a70b4a8b5b0c52495c791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc5c95b9d3b2048a531af1770a5630c') in 0.008566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.194984 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield turn.fbx
+  artifactKey: Guid(64cc79b00aea4354d9e3aa58f6163e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield turn.fbx using Guid(64cc79b00aea4354d9e3aa58f6163e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75cf272b91b481498deaee273dd174e') in 0.009028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.490682 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield walk (2).fbx
+  artifactKey: Guid(db33128476d07644a9211cab62465b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield walk (2).fbx using Guid(db33128476d07644a9211cab62465b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08751cb44343b7e990c336f8c62f5194') in 0.009268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.251571 seconds.
+  path: Assets/Characters/Link + Animaciones/sword and shield walk.fbx
+  artifactKey: Guid(23422114ae5302e4fbdd152cb6042986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/sword and shield walk.fbx using Guid(23422114ae5302e4fbdd152cb6042986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4c0a7d278e37d80d7c118f86390cfd') in 0.009326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 172.821959 seconds.
+  path: Assets/Characters/Link + Animaciones/Dancing Running Man.fbx
+  artifactKey: Guid(ee849f65eee8fd04481b25b5a3cc4d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/Dancing Running Man.fbx using Guid(ee849f65eee8fd04481b25b5a3cc4d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea73fe6484fb19e4c05ca593695afb7c') in 0.030158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.649600 seconds.
+  path: Assets/Characters/Link + Animaciones/Dancing Running Man.fbx
+  artifactKey: Guid(ee849f65eee8fd04481b25b5a3cc4d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/Dancing Running Man.fbx using Guid(ee849f65eee8fd04481b25b5a3cc4d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e010f8a74dc0a16ae231959c30c95077') in 0.010012 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005812 seconds.
+Registered in 0.004943 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\FranFdezDev\Playground3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\FranFdezDev\Playground3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.612 seconds
+- Completed reload, in  1.001 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1613ms)
-		BeginReloadAssembly (262ms)
+	ReloadAssembly (1002ms)
+		BeginReloadAssembly (146ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (17ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (78ms)
-		EndReloadAssembly (1214ms)
-			LoadAssemblies (166ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (772ms)
+			LoadAssemblies (92ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (407ms)
+			SetupTypeCache (275ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (539ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (324ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (381ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (220ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.87 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3218 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (0.6 MB). Loaded Objects now: 3682.
-Memory consumption went from 113.3 MB to 112.7 MB.
-Total: 5.251000 ms (FindLiveObjects: 0.313800 ms CreateObjectMapping: 0.095400 ms MarkObjects: 3.908100 ms  DeleteObjects: 0.931400 ms)
+Unloading 3213 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (80.9 KB). Loaded Objects now: 3688.
+Memory consumption went from 113.8 MB to 113.7 MB.
+Total: 3.439600 ms (FindLiveObjects: 0.351500 ms CreateObjectMapping: 0.159800 ms MarkObjects: 2.792000 ms  DeleteObjects: 0.134600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004423 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\FranFdezDev\Playground3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\FranFdezDev\Playground3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.825 seconds
+Domain Reload Profiling:
+	ReloadAssembly (826ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (610ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (220ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (247ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3213 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (80.9 KB). Loaded Objects now: 3691.
+Memory consumption went from 113.8 MB to 113.7 MB.
+Total: 2.925900 ms (FindLiveObjects: 0.232500 ms CreateObjectMapping: 0.092400 ms MarkObjects: 2.496200 ms  DeleteObjects: 0.103600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -237,113 +575,87 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 347.589270 seconds.
-  path: Assets/Characters/link.Textures
-  artifactKey: Guid(775cf7e32520bd64fbf9ec31f6332175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/link.Textures using Guid(775cf7e32520bd64fbf9ec31f6332175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5073a53c2db69d3f400135fcd27c2cc7') in 0.019824 seconds 
+  Time since last request: 151.576657 seconds.
+  path: Assets/Characters/Link + Animaciones/Dancing Running Man.fbx
+  artifactKey: Guid(ee849f65eee8fd04481b25b5a3cc4d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/Dancing Running Man.fbx using Guid(ee849f65eee8fd04481b25b5a3cc4d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f244f069ba03d60ceb5b209ecc042a') in 0.046512 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6941.613749 seconds.
-  path: Assets/Characters/Link + Animaciones
-  artifactKey: Guid(0b0270769a154504eb2ab0d952bbb778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Link + Animaciones using Guid(0b0270769a154504eb2ab0d952bbb778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28596f12d5cbca808eab50eb38e8dc0') in 0.021642 seconds 
+  Time since last request: 227.453274 seconds.
+  path: Assets/Characters/Link + Animaciones/Bailesito.fbx
+  artifactKey: Guid(ee849f65eee8fd04481b25b5a3cc4d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/Bailesito.fbx using Guid(ee849f65eee8fd04481b25b5a3cc4d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e2ed2dac3a0447583335be85bb288a') in 0.011868 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003458 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\FranFdezDev\Playground3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\FranFdezDev\Playground3D\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.040 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1040ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (800ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (283ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (337ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (238ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3213 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (81.1 KB). Loaded Objects now: 3694.
+Memory consumption went from 113.8 MB to 113.8 MB.
+Total: 3.219600 ms (FindLiveObjects: 0.368300 ms CreateObjectMapping: 0.215700 ms MarkObjects: 2.513600 ms  DeleteObjects: 0.119800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.164348 seconds.
-  path: Assets/Characters/Link + Animaciones/Link (Adult).fbx
-  artifactKey: Guid(63fcbf5b623a59b4a9d2490a078cfe00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Link + Animaciones/Link (Adult).fbx using Guid(63fcbf5b623a59b4a9d2490a078cfe00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c26cb2ec802d82c4e6757240c7d2ee5') in 1.078952 seconds 
+  Time since last request: 246.833339 seconds.
+  path: Assets/Characters/Link + Animaciones/Conduciendo.fbx
+  artifactKey: Guid(abbd3ad6e0be9854b93a5448bc0b38a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/Conduciendo.fbx using Guid(abbd3ad6e0be9854b93a5448bc0b38a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3c021923c8be0f3481f358e5d029e2') in 0.080019 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Characters/Link + Animaciones/sword and shield idle.fbx
-  artifactKey: Guid(1ea1eadeb296ea844b89ac6372851924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Link + Animaciones/sword and shield idle.fbx using Guid(1ea1eadeb296ea844b89ac6372851924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be954f09b8574ca38c02efde3b8ae812') in 0.022011 seconds 
+  Time since last request: 22.625838 seconds.
+  path: Assets/Characters/Link + Animaciones/Conduciendo.fbx
+  artifactKey: Guid(abbd3ad6e0be9854b93a5448bc0b38a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/Conduciendo.fbx using Guid(abbd3ad6e0be9854b93a5448bc0b38a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f489109c38615edb3621d865a2f1cee') in 0.006307 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Characters/Link + Animaciones/sword and shield block (2).fbx
-  artifactKey: Guid(bd35a84da22ac6c42981fc39e56d2dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Link + Animaciones/sword and shield block (2).fbx using Guid(bd35a84da22ac6c42981fc39e56d2dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7beb6baff74b3a7f0d67b3668acef1') in 0.021672 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Characters/Link + Animaciones/sword and shield casting.fbx
-  artifactKey: Guid(a4a69dbb4889f954ab72375e2d1f73bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Link + Animaciones/sword and shield casting.fbx using Guid(a4a69dbb4889f954ab72375e2d1f73bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb72709abaad8a0859881db74aae0693') in 0.021107 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Characters/Link + Animaciones/sword and shield run.fbx
-  artifactKey: Guid(7a0774153f893cd429292fac58beb61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Link + Animaciones/sword and shield run.fbx using Guid(7a0774153f893cd429292fac58beb61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646b99294e13fc53709ad31f77f8ff81') in 0.022576 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Characters/Link + Animaciones/sheath sword 2.fbx
-  artifactKey: Guid(974f9d9d97bd48b48979b1da3ab65d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Link + Animaciones/sheath sword 2.fbx using Guid(974f9d9d97bd48b48979b1da3ab65d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b612d5ce69a6c9e5ef05e5e06a2239d') in 0.021092 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Characters/Link + Animaciones/sword and shield crouching (3).fbx
-  artifactKey: Guid(90cf72684a38dac4ebdd73ba537aae21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Link + Animaciones/sword and shield crouching (3).fbx using Guid(90cf72684a38dac4ebdd73ba537aae21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79be7fae19d32ca0312b80e6b1ef3a7c') in 0.022299 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Characters/Link + Animaciones/sword and shield crouch block.fbx
-  artifactKey: Guid(a1932f38e8dea6b4d9306f1cc2a2eb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Link + Animaciones/sword and shield crouch block.fbx using Guid(a1932f38e8dea6b4d9306f1cc2a2eb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e4c4bacf8c9d76ce1aefad149e32af') in 0.019799 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Characters/Link + Animaciones/sword and shield idle (3).fbx
-  artifactKey: Guid(fe2a624bfe21d2d4b963a215fbaeae03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Link + Animaciones/sword and shield idle (3).fbx using Guid(fe2a624bfe21d2d4b963a215fbaeae03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dede1bfc5d87f54e1d2b5753024ee115') in 0.018845 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Characters/Link + Animaciones/sword and shield casting (2).fbx
-  artifactKey: Guid(36d41043fba6c2c4d97c66cf07ec7070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Link + Animaciones/sword and shield casting (2).fbx using Guid(36d41043fba6c2c4d97c66cf07ec7070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3ea87e6a85151f576a8b2f3c54655c') in 0.019384 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Characters/Link + Animaciones/sword and shield slash (2).fbx
-  artifactKey: Guid(e4218f1df04e52b48a119ffcda913c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Link + Animaciones/sword and shield slash (2).fbx using Guid(e4218f1df04e52b48a119ffcda913c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1741ef02eb26d7ad3b7ff7a782f0e34c') in 0.019304 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Characters/Link + Animaciones/sword and shield slash.fbx
-  artifactKey: Guid(8a6d904db7316a84990190225b6296ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Link + Animaciones/sword and shield slash.fbx using Guid(8a6d904db7316a84990190225b6296ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d09d120df34faa2db96cbb71509eee8') in 0.025601 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Characters/Link + Animaciones/sword and shield idle (2).fbx
-  artifactKey: Guid(69180d9284be07040891563d56ac7228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Link + Animaciones/sword and shield idle (2).fbx using Guid(69180d9284be07040891563d56ac7228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af32f3d570b94a26630ba39dc629c6d7') in 0.020836 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.683028 seconds.
-  path: Assets/Characters/Link + Animaciones/sword and shield strafe (4).fbx
-  artifactKey: Guid(0405615ba050fe248b0bca96fa3a482e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Link + Animaciones/sword and shield strafe (4).fbx using Guid(0405615ba050fe248b0bca96fa3a482e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4ec954ca238c7dc3975e8f66ebfbfb') in 0.009895 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Characters/Link + Animaciones/sword and shield walk (2).fbx
-  artifactKey: Guid(db33128476d07644a9211cab62465b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Link + Animaciones/sword and shield walk (2).fbx using Guid(db33128476d07644a9211cab62465b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dced27fbfbba8ef5cfaa9c125a5ebd6') in 0.011237 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Characters/Link + Animaciones/sword and shield walk.fbx
-  artifactKey: Guid(23422114ae5302e4fbdd152cb6042986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Link + Animaciones/sword and shield walk.fbx using Guid(23422114ae5302e4fbdd152cb6042986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69e9c0784fb300629c16fda5cc0e42d') in 0.013710 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 28.882368 seconds.
+  path: Assets/Characters/Link + Animaciones/Conduciendo.fbx
+  artifactKey: Guid(abbd3ad6e0be9854b93a5448bc0b38a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Link + Animaciones/Conduciendo.fbx using Guid(abbd3ad6e0be9854b93a5448bc0b38a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d31deb671a714a68f203f14827bb00') in 0.005866 seconds 
